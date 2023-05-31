@@ -1,0 +1,18 @@
+<html>
+<body>
+<form action="{{url_for('predict_datapoint')}}" method="POST">
+    <div class="form-group">
+        <label for="Followers">Followers:</label>
+        <input type="text" id="Followers" name="Followers" placeholder="Enter Followers value (int)">
+    </div>
+
+    <div class="form-group">
+        <label for="Time_since_posted">Time_since_posted:</label>
+        <input type="text" id="Time_since_posted" name="Time_since_posted" placeholder="Enter Time_since_posted value (int)">
+    </div>
+  
+<div style="clear:both;"></div>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>

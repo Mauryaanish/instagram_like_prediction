@@ -1,0 +1,3 @@
+[ 2023-05-31 11:43:36,676 ] 27 root - INFO - Data Ingestion Method Starts
+[ 2023-05-31 11:43:36,703 ] 31 root - INFO - Data Cleaing Part Starts
+[ 2023-05-31 11:43:36,704 ] 72 root - INFO - Exception Occured at data ingestion Stage

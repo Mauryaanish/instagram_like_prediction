@@ -1,0 +1,28 @@
+[ 2023-05-31 11:20:33,012 ] 27 root - INFO - Data Ingestion Method Starts
+[ 2023-05-31 11:20:33,084 ] 31 root - INFO - Data Cleaing Part Starts
+[ 2023-05-31 11:20:33,095 ] 45 root - INFO - Data Cleaing Partm Done
+[ 2023-05-31 11:20:33,106 ] 52 root - INFO - Train test Split
+[ 2023-05-31 11:20:33,121 ] 59 root - INFO - Ingestion of data is complete
+[ 2023-05-31 11:20:33,154 ] 65 root - INFO - Read train and test data completed
+[ 2023-05-31 11:20:33,162 ] 66 root - INFO - Train Dataframe Head : 
+   Followers  Time since posted  Likes
+0        955                  2     20
+1        151                  2     31
+2       1003                  2     40
+3       2175                  2     41
+4        265                  2     25
+[ 2023-05-31 11:20:33,162 ] 67 root - INFO - Test Dataframe Head  : 
+   Followers  Time since posted  Likes
+0        460                  2     29
+1       2573                  2    119
+2         66                  3     16
+3        971                  3     53
+4        193                  2     18
+[ 2023-05-31 11:20:33,162 ] 69 root - INFO - Obtaining preprocessing object
+[ 2023-05-31 11:20:33,162 ] 26 root - INFO - Data Transformation initiated
+[ 2023-05-31 11:20:33,162 ] 32 root - INFO - Pipeline Initiated
+[ 2023-05-31 11:20:33,183 ] 86 root - INFO - Applying preprocessing object on training and testing datasets.
+[ 2023-05-31 11:20:33,191 ] 98 root - INFO - Preprocessor pickle file saved
+[ 2023-05-31 11:20:33,191 ] 27 root - INFO - Splitting Dependent and Independent variables from train and test data
+[ 2023-05-31 11:20:33,262 ] 45 root - INFO - Model Report : {'LinearRegression': 0.011438268820866848, 'Lasso': 0.05824892631675915, 'Ridge': 0.04063000599213662, 'Elasticnet': 0.5430410529991385}
+[ 2023-05-31 11:20:33,275 ] 58 root - INFO - Best Model Found , Model Name : Elasticnet , R2 Score : 54.30410529991385
